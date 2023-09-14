@@ -5941,7 +5941,7 @@ function PromptFriendNotif(Plr)
 	snd.Parent = Domain.Domain
 	snd.SoundId = "rbxassetid://4835664238"
 	snd.Name = "Notif"
-	snd.Volume = 1.5
+	snd.Volume = 0
 	snd.PlayOnRemove = true
 	Domain.FriendJoined.Visible = true
 	Domain.FriendJoined.Size = UDim2.new(0,0,0.195,0)
