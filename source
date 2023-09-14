@@ -3013,7 +3013,7 @@ Domain.NoticeMessage.Position = UDim2.new(0.0275973734, 0, 0.491011739, 0)
 Domain.NoticeMessage.Size = UDim2.new(0.272888154, 0, 0.0167460982, 0)
 Domain.NoticeMessage.ZIndex = 1000
 Domain.NoticeMessage.Font = Enum.Font.GothamBold
-Domain.NoticeMessage.Text = "Give us a second while we find the best server for you"
+Domain.NoticeMessage.Text = "امنحنا لحظة حتى نجد أفضل سيرفر لك "
 Domain.NoticeMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.NoticeMessage.TextScaled = true
 Domain.NoticeMessage.TextSize = 14.000
@@ -3066,7 +3066,7 @@ Domain.CancelShop.Position = UDim2.new(0.027597364, 0, 0.517927229, 0)
 Domain.CancelShop.Size = UDim2.new(0.0769528076, 0, 0.0418602675, 0)
 Domain.CancelShop.ZIndex = 1000
 Domain.CancelShop.Font = Enum.Font.GothamBold
-Domain.CancelShop.Text = "Cancel"
+Domain.CancelShop.Text = "إلغاء"
 Domain.CancelShop.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.CancelShop.TextSize = 18.000
 
@@ -3081,7 +3081,7 @@ Domain.LargeMsg.Position = UDim2.new(0.0203074999, 0, 0.0379411466, 0)
 Domain.LargeMsg.Size = UDim2.new(0.272888154, 0, 0.0347569771, 0)
 Domain.LargeMsg.ZIndex = 1000
 Domain.LargeMsg.Font = Enum.Font.GothamBold
-Domain.LargeMsg.Text = "Serverhop"
+Domain.LargeMsg.Text = "بحث سيرفر خاص"
 Domain.LargeMsg.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.LargeMsg.TextScaled = true
 Domain.LargeMsg.TextSize = 14.000
@@ -3107,7 +3107,7 @@ Domain.Textjoin.BorderSizePixel = 0
 Domain.Textjoin.Position = UDim2.new(0.26033023, 0, 0.25, 0)
 Domain.Textjoin.Size = UDim2.new(0.685603261, 0, 0.5, 0)
 Domain.Textjoin.Font = Enum.Font.GothamBold
-Domain.Textjoin.Text = "Your friend, usernameusername has joined the server"
+Domain.Textjoin.Text = "صديقك , usernameusername انضم إلى سيرفر "
 Domain.Textjoin.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.Textjoin.TextScaled = true
 Domain.Textjoin.TextSize = 14.000
@@ -3145,7 +3145,7 @@ Domain.Text_2.BorderSizePixel = 0
 Domain.Text_2.Position = UDim2.new(0.0778996721, 0, 0.24003917, 0)
 Domain.Text_2.Size = UDim2.new(0.840751648, 0, 0.272304982, 0)
 Domain.Text_2.Font = Enum.Font.GothamBold
-Domain.Text_2.Text = "Domain"
+Domain.Text_2.Text = "سكربت متطور"
 Domain.Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.Text_2.TextScaled = true
 Domain.Text_2.TextSize = 14.000
@@ -3193,7 +3193,7 @@ Domain.Text_3.BorderSizePixel = 0
 Domain.Text_3.Position = UDim2.new(0.0778996721, 0, 0.134966582, 0)
 Domain.Text_3.Size = UDim2.new(0.840751648, 0, 0.153488904, 0)
 Domain.Text_3.Font = Enum.Font.GothamBold
-Domain.Text_3.Text = "Enter Key"
+Domain.Text_3.Text = "ادخل مفتاح"
 Domain.Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.Text_3.TextScaled = true
 Domain.Text_3.TextSize = 14.000
@@ -3215,7 +3215,7 @@ Domain.KeyBox.BorderSizePixel = 0
 Domain.KeyBox.Position = UDim2.new(0.0778996721, 0, 0.335739672, 0)
 Domain.KeyBox.Size = UDim2.new(0.778996766, 0, 0.26676026, 0)
 Domain.KeyBox.Font = Enum.Font.GothamSemibold
-Domain.KeyBox.PlaceholderText = "Key in Discord"
+Domain.KeyBox.PlaceholderText = "مفتاح في ديسكورد "
 Domain.KeyBox.Text = ""
 Domain.KeyBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.KeyBox.TextSize = 14.000
@@ -3245,7 +3245,7 @@ Domain.notice.BorderSizePixel = 0
 Domain.notice.Position = UDim2.new(0.218713656, 0, 1.06311345, 0)
 Domain.notice.Size = UDim2.new(0.563880622, 0, 0.153488904, 0)
 Domain.notice.Font = Enum.Font.GothamBold
-Domain.notice.Text = "This is only one time"
+Domain.notice.Text = "هذه مرة واحدة فقط "
 Domain.notice.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.notice.TextScaled = true
 Domain.notice.TextSize = 14.000
@@ -3253,16 +3253,16 @@ Domain.notice.TextWrapped = true
 
 
 V2 = true
-Key = "2r0jfv"
-Key2 = "br"
+Key = "AS2-13"
+Key2 = "AS@12"
 keyenabled = false
 
 
 NotificationDuration = 7
 ReleaseType = "Release"
 Release = 1.4
-ReleaseFeature = "Discord Update"
-DiscordLink = "discord.gg/BQ5tjBEhw5"
+ReleaseFeature = "تحديث ديسكورد "
+DiscordLink = "https://discord.gg/YvCUd2rFQB"
 DomainPass = 16104485
 
 bindable = Instance.new("BindableEvent")
@@ -3371,7 +3371,7 @@ DangerousGames = {6358843321,3522042406,286090429} -- games that will ban you if
 BackgroundExploits = {
 	EZHub = {
 		Name = "EZHub",
-		Description = "The all-in-one script hub",
+		Description = "",
 		PlaceIds = {204990346,2629642516,1962086868,155615604,2512643572,3101667897,402122991,3823781113,142823291,2317712696,171391948},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3379,7 +3379,7 @@ BackgroundExploits = {
 	},
 	lmber = {
 		Name = "Lumber Tycoon",
-		Description = "Created by Bark Development",
+		Description = "ماب الخشب",
 		PlaceIds = {13822889},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3387,7 +3387,7 @@ BackgroundExploits = {
 	},
 	fnf = {
 		Name = "Funky Friday",
-		Description = "Autoplayer for Funky Friday",
+		Description = "التشغيل التلقائي للعبة Funky Friday ",
 		PlaceIds = {6447798030},
 		PremiumOnly = false,
 		WaitDuration = 9,
@@ -3395,7 +3395,7 @@ BackgroundExploits = {
 	},
 	anomic = {
 		Name = "Anomic",
-		Description = "Script for Anomic",
+		Description = "السيناريو  ",
 		PlaceIds = {4581966615},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3403,7 +3403,7 @@ BackgroundExploits = {
 	},
 	stroller = {
 		Name = "Stroller UI",
-		Description = "Kill and bring players",
+		Description = "قتل وسحب اللاعبين ",
 		PlaceIds = {1662219031},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3411,7 +3411,7 @@ BackgroundExploits = {
 	},
 	WizardTycoon = {
 		Name = "Wizard Tycoon",
-		Description = "No Doors, Infinite Inferno",
+		Description = "لا أبواب،  لانهائي ",
 		PlaceIds = {281489669},
 		PremiumOnly = true,
 		WaitDuration = 0,
@@ -3419,15 +3419,15 @@ BackgroundExploits = {
 	},
 	jailbreak = {
 		Name = "Jailbreak",
-		Description = "Overpowered tools for Jailbreak",
+		Description = "أدوات قوية لكسر الحماية ",
 		PlaceIds = {606849621},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://raw.githubusercontent.com/opBandwidth/_Nexagon_/main/main.lua",
 	},
 	ZombieAttack = {
-		Name = "Autofarm UI",
-		Description = "Overpowered autofarm functionality",
+		Name = "اوتو فارم",
+		Description = " اوتو فارم ",
 		PlaceIds = {1240123653,1632210982},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3435,7 +3435,7 @@ BackgroundExploits = {
 	},
 	fencingscripts = {
 		Name = "Fencing",
-		Description = "An example, to show this feature",
+		Description = "مثال لتوضيح هذه الخاصية ",
 		PlaceIds = {5793474642,12109643},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3443,95 +3443,95 @@ BackgroundExploits = {
 	},
 	sis = {
 		Name = "Stop It Slender!",
-		Description = "UI for Stop It Slender!",
+		Description = "سكربت ماب ستوب ات سلندر",
 		PlaceIds = {30869879},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://pastebin.com/raw/hFxynXvs",
 	},
 	doomspire = {
-		Name = "Doomspire UI",
-		Description = "Smart Doomspire UI",
+		Name = "Doomspire UI سكربت",
+		Description = "سكربت متطور",
 		PlaceIds = {1215581239},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://pastebin.com/raw/NguHCk5t",
 	},
 	animebattlearena = {
-		Name = "ABA UI",
-		Description = "UI for Anime Battle Arena",
+		Name = "Anime Battle Arena",
+		Description = "سكربت قوي",
 		PlaceIds = {1458767429},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://raw.githubusercontent.com/travislmao/pub-scripts/main/abagui",
 	},
 	Ragdolleng = {
-		Name = "Ragdoll Engine",
-		Description = "Very useful UI for Ragdoll Engine",
+		Name = "Ragdoll Engine سكربت",
+		Description = "سكربت خورافي",
 		PlaceIds = {2041312716},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua",
 	},
 	cafegameslol = {
-		Name = "Barrier Remover",
-		Description = "Bypass many cafe barriers",
+		Name = "Barrier Remover سكربت",
+		Description = "سكربت اسطوري",
 		PlaceIds = {1217895158,3243063589,718328620,610172644,738548299,5580097107,323925323,3522042406,2075082966},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://pastebin.com/raw/HqFgVGXn",
 	},
 	DarkHub = {
-		Name = "Dark Hub",
-		Description = "Incredible script for many games",
+		Name = "Dark Hub سكربت",
+		Description = "فيه العاب كثير",
 		PlaceIds = {286090429,2377868063,263761432,292439477,3233893879,3527629287,2555870920,5081773298},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://darkhub.xyz/script",
 	},
 	madcity = {
-		Name = "Mad City",
-		Description = "UI for Mad City",
+		Name = "Mad City سكربت",
+		Description = "سكربت حلو",
 		PlaceIds = {1224212277},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://raw.githubusercontent.com/Sumithebestak/MadChicken/main/README.md",
 	},
 	myrestaurant = {
-		Name = "My Restaurant",
-		Description = "Useful autofarm interface",
+		Name = "My Restaurant سكربت",
+		Description = ".",
 		PlaceIds = {4490140733},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "http://void-scripts.com/Scripts/myRest.lua",
 	},
 	dday = {
-		Name = "D-DAY",
-		Description = "UI for D-DAY",
+		Name = "D-DAY سكربت",
+		Description = ".",
 		PlaceIds = {901793731},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://raw.githubusercontent.com/iQAIRHUB/Project-Ripple/main/D-DAY/V3.0.3",
 	},
 	beesim = {
-		Name = "BSS Auto-farm",
-		Description = "Autofarm the bees lol",
+		Name = "BSS Auto-farm سكربت",
+		Description = "تربية النحل تلقائيًا لول ",
 		PlaceIds = {1537690962},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://pastebin.com/raw/KSpGSvQg",
 	},
 	ninjalegends = {
-		Name = "Autofarm UI",
-		Description = "Very good autofarm for Ninja Legends",
+		Name = "Ninja Legends سكربت",
+		Description = ".",
 		PlaceIds = {3956818381},
 		PremiumOnly = false,
 		WaitDuration = 0,
 		Loadstring = "https://pastebin.com/raw/Q39hYJ8V",
 	},
 	autorapbatt = {
-		Name = "Auto RB UI",
-		Description = "Rap like a beast",
+		Name = "Auto RB سكربت",
+		Description = "موسيقى الراب مثل الوحش ",
 		PlaceIds = {579955134},
 		PremiumOnly = false,
 		WaitDuration = 0,
@@ -3542,32 +3542,32 @@ BackgroundExploits = {
 UniversalExploits = {
 	
 	CLOVR = {
-		Name = "CloVR (R6 Only)",
+		Name = "CloVR سكربت (R6 فقط)",
 		Author = "Abacaxl",
 		Colour = Color3.fromRGB(85, 85, 127),
 		Code = "https://pastebin.com/raw/4iTCQwHd",
 	},
 	expchat = {
-		Name = "Exploiter Chat",
-		Author = "Sheenieboy",
+		Name = "Exploiter Chat سكربت",
+		Author = ".",
 		Colour = Color3.fromRGB(48, 129, 200),
 		Code = "https://raw.githubusercontent.com/sheenieboy/ExploiterChat/master/ExploiterChat",
 	},
 	cmdx = {
-		Name = "CMD-X",
-		Author = "Various Developers",
+		Name = "CMD-X سكربت",
+		Author = "سكربت ادمن",
 		Colour = Color3.fromRGB(55, 95, 97),
 		Code = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",
 	},
 	InfiniteYield = {
-		Name = "Infinite Yield",
-		Author = "Edge",
+		Name = "2 سكربت ادمن",
+		Author = ".",
 		Colour = Color3.fromRGB(48, 48, 48),
 		Code = "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",	
 	},
 	ezhub = {
-		Name = "EZHub",
-		Author = "EZ Industries",
+		Name = "EZHub سكربت",
+		Author = "سكربت قوي",
 		Colour = Color3.fromRGB(0, 85, 127),
 		Code = "https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua"
 	},
@@ -3648,7 +3648,7 @@ end
 
 function ExecuteString(String)
 	if String and String ~= "" then
-		Notify("Running script..","GothamSemibold",Color3.fromRGB(0, 85, 127))
+		Notify("تشغيل سكربت..","GothamSemibold",Color3.fromRGB(0, 85, 127))
 		loadstring(String)
 		Notify("Ran script","GothamSemibold",Color3.fromRGB(0, 170, 127))
 	end
