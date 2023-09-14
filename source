@@ -6044,7 +6044,7 @@ Domain.ToggleSound.MouseButton1Click:Connect(function()
 				Domain.ToggleSound.Text = "توقف"
 				Notify("تم تشغيل, اشغط توقف لتوقف","GothamSemibold",Color3.fromRGB(0, 85, 127))
 			elseif Domain.Domain:FindFirstChildWhichIsA("Sound") then
-				Domain.Domain:FindFirstChildWhichIsA("Sound").Volume = 1
+				Domain.Domain:FindFirstChildWhichIsA("Sound").Volume = 0
 				Domain.Domain:FindFirstChildWhichIsA("Sound").Looped = true
 				Domain.Domain:FindFirstChildWhichIsA("Sound").SoundId = "rbxassetid://"..tonumber(Domain.SoundIdBox.Text)
 				Domain.Domain:FindFirstChildWhichIsA("Sound").TimePosition = 0
