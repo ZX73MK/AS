@@ -835,7 +835,7 @@ Domain.Description_2.Position = UDim2.new(0.0512574017, 0, 0.464571714, 0)
 Domain.Description_2.Size = UDim2.new(0.565016568, 0, 0.183530971, 0)
 Domain.Description_2.ZIndex = 1003
 Domain.Description_2.Font = Enum.Font.GothamBold
-Domain.Description_2.Text = "Really Brief Description"
+Domain.Description_2.Text = "وصف"
 Domain.Description_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.Description_2.TextScaled = true
 Domain.Description_2.TextSize = 14.000
@@ -1240,7 +1240,7 @@ Domain.areatitle.Position = UDim2.new(0.0382106751, 0, 0.885008931, 0)
 Domain.areatitle.Size = UDim2.new(0.399789095, 0, 0.0316002294, 0)
 Domain.areatitle.ZIndex = 1005
 Domain.areatitle.Font = Enum.Font.GothamBold
-Domain.areatitle.Text = "Region"
+Domain.areatitle.Text = "منطقة "
 Domain.areatitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.areatitle.TextScaled = true
 Domain.areatitle.TextSize = 14.000
@@ -2611,7 +2611,7 @@ Domain.SoundIdBox.BorderSizePixel = 0
 Domain.SoundIdBox.Position = UDim2.new(0.172132269, 0, 0.175068468, 0)
 Domain.SoundIdBox.Size = UDim2.new(0.662047207, 0, 0.253864467, 0)
 Domain.SoundIdBox.Font = Enum.Font.GothamSemibold
-Domain.SoundIdBox.PlaceholderText = "SoundId"
+Domain.SoundIdBox.PlaceholderText = "كود"
 Domain.SoundIdBox.Text = ""
 Domain.SoundIdBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.SoundIdBox.TextSize = 18.000
@@ -3050,7 +3050,7 @@ Domain.SmallMessage.Position = UDim2.new(0.234, 0, 0.748, 0)
 Domain.SmallMessage.Size = UDim2.new(0.530992925, 0, 0.0167460982, 0)
 Domain.SmallMessage.ZIndex = 1000
 Domain.SmallMessage.Font = Enum.Font.GothamSemibold
-Domain.SmallMessage.Text = "imagine not using domain hub"
+Domain.SmallMessage.Text = "تخيل عدم استخدام محور سكربت "
 Domain.SmallMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.SmallMessage.TextScaled = true
 Domain.SmallMessage.TextSize = 14.000
@@ -4202,7 +4202,7 @@ function StartUnfunctionals()
 	Domain.KeyFrame.Visible = false
 	Domain.Main.Position = UDim2.new(1.001,0,0.262,0)
 	Domain.Main.Shadow.ImageTransparency = 1
-	Domain.VersionText.Text = "You're running Domain "..ReleaseType.. " version "..tostring(Release)..[[    ]]
+	Domain.VersionText.Text = "أنت تشغل سكربت متطور "..ReleaseType.. " version "..tostring(Release)..[[    ]]
 	Domain.VersionText2.Text = "- "..ReleaseFeature
 	Domain.ToggleButton.Rotation = 90
 	Domain.ToggleButton.ImageTransparency = 1
@@ -4489,7 +4489,7 @@ function Execute(String)
 	if loadstring then
 		loadstring(game:HttpGet(String, true))()
 	else
-		Notify("You don't have the loadstring function! Use a different executor.","GothamSemibold",Color3.fromRGB(255, 163, 5))
+		Notify("ليس لديك وظيفة سلسلة التحميل! استخدم منفذًا مختلفًا .","GothamSemibold",Color3.fromRGB(255, 163, 5))
 	end
 end
 
@@ -4744,7 +4744,7 @@ end
 
 function Teleport(Player)
 	if game.Players:FindFirstChild(Player.Name) then
-		Notify("Teleporting you to "..Player.Name,"GothamSemibold",Color3.fromRGB(0, 85, 127))
+		Notify("تنقل إلى"..Player.Name,"GothamSemibold",Color3.fromRGB(0, 85, 127))
 		local targetplayer = game.Workspace:FindFirstChild(Player.Name).HumanoidRootPart
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(targetplayer.Position.X, targetplayer.Position.Y, targetplayer.Position.Z)
 	else
@@ -4912,7 +4912,7 @@ function StartServerhop()
 	Domain.CancelShop.BackgroundTransparency = 1
 	Domain.CancelShop.TextTransparency = 1
 	Domain.NoticeMessage.TextTransparency = 1
-	Domain.ServerhopAnim.NoticeMessage.Text = " Give us a second while we find the best server for you"
+	Domain.ServerhopAnim.NoticeMessage.Text = " امنحنا لحظة حتى نجد أفضل سيرفر لك "
 	Domain.LargeMsg.Text = "سيرفر خاص"
 	Domain.ShlexLogo.ImageTransparency = 1
 	Domain.SmallMessage.TextTransparency = 1
@@ -5119,7 +5119,7 @@ function RePromptExploit(Exploit)
 		if pexploit then
 			Domain.Other.ExploitFound:TweenPosition(UDim2.new(-26.5,0,0.299,0),"In","Quint",0.4)
 			pexploit = false
-			Notify("Loading "..Exploit.Name,"GothamSemibold",Color3.fromRGB(52, 52, 52))
+			Notify("تحميل "..Exploit.Name,"GothamSemibold",Color3.fromRGB(52, 52, 52))
 			Execute(Exploit.Loadstring)
 		end
 	end)
@@ -5197,7 +5197,7 @@ function GlitchTransition()
 	Title.Size = UDim2.new(0.797711372, 0, 0.0821957961, 0)
 	Title.ZIndex = 2
 	Title.Font = Enum.Font.GothamBold
-	Title.Text = "That wasn't supposed to happen... <b> <b> <b>555555"
+	Title.Text = "لم يكن من المفترض أن يحدث ذلك ... <b> <b> <b>555555"
 	Title.TextColor3 = Color3.fromRGB(235, 235, 235)
 	Title.TextScaled = true
 	Title.TextSize = 14.000
@@ -5215,7 +5215,7 @@ function GlitchTransition()
 	Support.Size = UDim2.new(0.669075966, 0, 0.127589419, 0)
 	Support.ZIndex = 2
 	Support.Font = Enum.Font.GothamSemibold
-	Support.Text = "You found an error! {can't find resource}"
+	Support.Text = "لقد وجدت خطأ ! {can't find resource}"
 	Support.TextColor3 = Color3.fromRGB(235, 235, 235)
 	Support.TextScaled = true
 	Support.TextSize = 14.000
@@ -5258,7 +5258,7 @@ function GlitchTransition()
 	ErrorDesc.Size = UDim2.new(0.733908772, 0, 0.121890925, 0)
 	ErrorDesc.ZIndex = 2
 	ErrorDesc.Font = Enum.Font.GothamSemibold
-	ErrorDesc.Text = "We can make out that the error is due to 'OUTDATED CLIENT'"
+	ErrorDesc.Text = "يمكننا أن نستنتج أن الخطأ يرجع إلى  'OUTDATED CLIENT'"
 	ErrorDesc.TextColor3 = Color3.fromRGB(194, 194, 194)
 	ErrorDesc.TextScaled = true
 	ErrorDesc.TextSize = 14.000
@@ -5274,7 +5274,7 @@ function GlitchTransition()
 	Discord.Size = UDim2.new(0.733908772, 0, 0.0731824785, 0)
 	Discord.ZIndex = 2
 	Discord.Font = Enum.Font.GothamBlack
-	Discord.Text = "discord.gg/shlex"
+	Discord.Text = "https://discord.gg/YvCUd2rFQB"
 	Discord.TextColor3 = Color3.fromRGB(235, 235, 235)
 	Discord.TextScaled = true
 	Discord.TextSize = 14.000
@@ -5315,7 +5315,7 @@ function GlitchTransition()
 	Title.Position = UDim2.new(0.0507893488, 0, 0.0654515773, 0)
 	Title.Size = UDim2.new(0, 200, 0, 18)
 	Title.Font = Enum.Font.GothamBold
-	Title.Text = "Shlex Softworks"
+	Title.Text = "شلكس سوفت ووركس "
 	Title.TextColor3 = Color3.fromRGB(238, 238, 238)
 	Title.TextScaled = true
 	Title.TextSize = 14.000
@@ -5365,7 +5365,7 @@ function GlitchTransition()
 	Mig.Position = UDim2.new(0.0507893413, 0, 0.544557095, 0)
 	Mig.Size = UDim2.new(0.47464776, 0, 0.0519015305, 0)
 	Mig.Font = Enum.Font.GothamBold
-	Mig.Text = "We're migrating your account"
+	Mig.Text = "نحن نقوم بترحيل حسابك "
 	Mig.TextColor3 = Color3.fromRGB(238, 238, 238)
 	Mig.TextScaled = true
 	Mig.TextSize = 14.000
@@ -5380,7 +5380,7 @@ function GlitchTransition()
 	OneMoment.Position = UDim2.new(0.0507893488, 0, 0.59430027, 0)
 	OneMoment.Size = UDim2.new(0.47464776, 0, 0.0428680629, 0)
 	OneMoment.Font = Enum.Font.GothamSemibold
-	OneMoment.Text = "Give us a moment"
+	OneMoment.Text = "أعطنا لحظة "
 	OneMoment.TextColor3 = Color3.fromRGB(195, 195, 195)
 	OneMoment.TextScaled = true
 	OneMoment.TextSize = 14.000
@@ -5395,7 +5395,7 @@ function GlitchTransition()
 	TurnOffPc.Position = UDim2.new(0.44533959, 0, 0.932569861, 0)
 	TurnOffPc.Size = UDim2.new(0.519742846, 0, 0.035653688, 0)
 	TurnOffPc.Font = Enum.Font.GothamSemibold
-	TurnOffPc.Text = "Please do not close Roblox or turn off your PC"
+	TurnOffPc.Text = "من فضلك لا تغلق روبلوكس أو تطفئ جهاز الكمبيوتر الخاص بك "
 	TurnOffPc.TextColor3 = Color3.fromRGB(94, 94, 94)
 	TurnOffPc.TextScaled = true
 	TurnOffPc.TextSize = 14.000
@@ -5423,7 +5423,7 @@ function GlitchTransition()
 	LoadingInfo.Position = UDim2.new(-0.00209946721, 0, -16.2274342, 0)
 	LoadingInfo.Size = UDim2.new(0.851594985, 0, 10.4406357, 0)
 	LoadingInfo.Font = Enum.Font.GothamBold
-	LoadingInfo.Text = "Loading <nil>"
+	LoadingInfo.Text = "تحميل <nil>"
 	LoadingInfo.TextColor3 = Color3.fromRGB(162, 162, 162)
 	LoadingInfo.TextScaled = true
 	LoadingInfo.TextSize = 14.000
@@ -5449,9 +5449,9 @@ function GlitchTransition()
 	local s = Instance.new("Sound",Domain.Domain)
 	s.SoundId = "rbxassetid://"..2755928629
 	s:Play()
-	Notify("Roblox detection found","GothamBold",Color3.fromRGB(170, 0, 0))
+	Notify("تم العثور على اكتشاف روبلوكس ","GothamBold",Color3.fromRGB(170, 0, 0))
 	wait(0.6)
-	Notify("Rebooting..","GothamBold",Color3.fromRGB(0, 170, 127))
+	Notify("إعادة التشغيل ..","GothamBold",Color3.fromRGB(0, 170, 127))
 	wait(2)
 	local s = Instance.new("Sound",Domain.Domain)
 	s.SoundId = "rbxassetid://"..2755928629
@@ -5730,7 +5730,7 @@ Domain.VersionText.Text = "أنت تقوم بتشغيل سكربت  "..ReleaseTy
 Domain.VersionText2.Text = "- "..ReleaseFeature
 Domain.ToggleButton.Rotation = 90
 Domain.ToggleButton.ImageTransparency = 1
-Domain.Other.Watermark.Text.Text = "Domain "..ReleaseType.." v"..tostring(Release)
+Domain.Other.Watermark.Text.Text = "سكربت متطور "..ReleaseType.." v"..tostring(Release)
 if game.Players.LocalPlayer:IsInGroup(10220078) then
 	bdomain = true
 end
