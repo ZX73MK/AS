@@ -5626,7 +5626,7 @@ function BootDomain()
 		end
 		booteddomain = "true"
 		wait(4)
-		Notify("SHLEX DISCORD HAS BEEN DELETED! Please rejoin! Find the link in the About tab","GothamBold",Color3.fromRGB(235, 0, 0))
+		Notify("اي مشكلة تقدر تدخل سيرفر ديسكورد! او اي إبلاغ عن شخص","GothamBold",Color3.fromRGB(235, 0, 0))
 		LoadPlayers()
 	else
 		Notify("Domain is not enabled at this time, try again later!","GothamSemibold",Color3.fromRGB(184, 0, 0))
@@ -5651,18 +5651,18 @@ end
 function GetDate()
 	local date = {}
 	local months = {
-		{"January", 31};
-		{"February", 28};
-		{"March", 31};
-		{"April", 30};
-		{"May", 31};
-		{"June", 30};
-		{"July", 31};
-		{"August", 31};
-		{"September", 30};
-		{"October", 31};
-		{"November", 30};
-		{"December", 31};
+		{"يناير ", 31};
+		{"شهر فبراير ", 28};
+		{"مارس ", 31};
+		{"أبريل ", 30};
+		{"مايو ", 31};
+		{"يونيو ", 30};
+		{"يوليو ", 31};
+		{"أغسطس ", 31};
+		{"سبتمبر ", 30};
+		{"اكتوبر ", 31};
+		{"شهر نوفمبر ", 30};
+		{"ديسمبر ", 31};
 	}
 	local t = tick()
 	date.total = t
@@ -5925,7 +5925,7 @@ end
 
 
 Domain.CancelShop.MouseButton1Click:Connect(function()
-	Domain.ServerhopAnim.NoticeMessage.Text = " Successfully canceled"
+	Domain.ServerhopAnim.NoticeMessage.Text = " تم الإلغاء بنجاح  "
 	Domain.LargeMsg.Text = "Stopped"
 	StopShop = true
 	local transitionInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quint)
@@ -5985,10 +5985,10 @@ game.Players.PlayerAdded:Connect(function(Player)
 	if game.Players.LocalPlayer:IsFriendsWith(Player.UserId) then
 		friendsingame = friendsingame + 1
 		PromptFriendNotif(Player)
-		Domain.amount_2.Text = friendsingame.." are in this game"	
+		Domain.amount_2.Text = friendsingame.." في هذه اللعبة "	
 	end
 	if friendsingame <= 0 then
-		Domain.amount_2.Text = "None are in this game"	
+		Domain.amount_2.Text = "لا يوجد أحد في هذه اللعبة "	
 	end
 	if table.find(Developers,Player.UserId) or table.find(Admins,Player.UserId) then
 		if game.CreatorId ~= 0 then
@@ -6022,11 +6022,11 @@ Domain.Fly.MouseButton1Click:Connect(function()
 	if plrflying then
 		Unfly()
 		plrflying = false
-		Domain.FlyText.Text = "Fly"
+		Domain.FlyText.Text = "طيران"
 	else
 		Fly()
 		plrflying = true
-		Domain.FlyText.Text = "Unfly"
+		Domain.FlyText.Text = "إلغاء طيران"
 	end
 end)
 
@@ -6057,7 +6057,7 @@ Domain.ToggleSound.MouseButton1Click:Connect(function()
 	elseif playing then
 		playing = false
 		if not Domain.Domain:FindFirstChildWhichIsA("Sound") then
-			Notify("Couldn't find music to stop","GothamSemibold",Color3.fromRGB(0, 85, 127))
+			Notify("تعذر العثور على موسيقى لإيقافها ","GothamSemibold",Color3.fromRGB(0, 85, 127))
 			Domain.ToggleSound.Text = "Play"
 		else
 			Domain.ToggleSound.Text = "Play"
@@ -6119,11 +6119,11 @@ while true do
 	local friendsonline = #game.Players.LocalPlayer:GetFriendsOnline()
 	wait(1)
 	if friendsonline == 1 then
-		Domain.amount.Text = "You have "..tostring(friendsonline).." friend online"
+		Domain.amount.Text = "لديك  "..tostring(friendsonline).." صديق على الانترنت "
 	elseif friendsonline == 0 then
-		Domain.amount.Text = "You have no friends online"
+		Domain.amount.Text = "ليس لديك أصدقاء على الانترنت "
 	else
-		Domain.amount.Text = "You have "..tostring(friendsonline).." friends online"
+		Domain.amount.Text = "لديك  "..tostring(friendsonline).." أصدقاء على الانترنت "
 	end
 	wait(3)
 	local value = math.random(1,#loldiscord)
