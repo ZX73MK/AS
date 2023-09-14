@@ -497,7 +497,7 @@ Domain.OpenHome.BorderSizePixel = 0
 Domain.OpenHome.Position = UDim2.new(0.126000002, 0, 0.123000003, 0)
 Domain.OpenHome.Size = UDim2.new(0.717000008, 0, 0.713, 0)
 Domain.OpenHome.ZIndex = 6
-Domain.OpenHome.Image = "rbxassetid://3926305904"
+Domain.OpenHome.Image = "rbxassetid://4483362458"
 Domain.OpenHome.ImageRectOffset = Vector2.new(964, 204)
 Domain.OpenHome.ImageRectSize = Vector2.new(36, 36)
 
@@ -510,7 +510,7 @@ Domain.ToggleButton.Position = UDim2.new(-0.429127365, 0, 0.4676148, 0)
 Domain.ToggleButton.Rotation = 270.000
 Domain.ToggleButton.Size = UDim2.new(0.429127395, 0, 0.0646622404, 0)
 Domain.ToggleButton.ZIndex = 5
-Domain.ToggleButton.Image = "rbxassetid://3926305904"
+Domain.ToggleButton.Image = "rbxassetid://4483362458"
 Domain.ToggleButton.ImageRectOffset = Vector2.new(564, 284)
 Domain.ToggleButton.ImageRectSize = Vector2.new(36, 36)
 
