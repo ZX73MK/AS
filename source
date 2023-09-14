@@ -532,7 +532,7 @@ Domain.Shadow.BorderSizePixel = 0
 Domain.Shadow.Position = UDim2.new(-0.123659134, 0, -0.236623734, 0)
 Domain.Shadow.Size = UDim2.new(1.80975306, 0, 1.42539299, 0)
 Domain.Shadow.ZIndex = 3
-Domain.Shadow.Image = "rbxassetid://4483362458"
+Domain.Shadow.Image = "rbxassetid://3523728077"
 Domain.Shadow.ImageColor3 = Color3.fromRGB(33, 33, 33)
 Domain.Shadow.ImageTransparency = 0.700
 
@@ -733,7 +733,7 @@ Domain.Shadow_2.BorderSizePixel = 0
 Domain.Shadow_2.Position = UDim2.new(-0.0506853797, 0, -0.231648907, 0)
 Domain.Shadow_2.Size = UDim2.new(1.10606587, 0, 1.51781273, 0)
 Domain.Shadow_2.ZIndex = 0
-Domain.Shadow_2.Image = "rbxassetid://3523728077"
+Domain.Shadow_2.Image = "rbxassetid://4483362458"
 Domain.Shadow_2.ImageColor3 = Color3.fromRGB(33, 33, 33)
 Domain.Shadow_2.ImageTransparency = 0.600
 
