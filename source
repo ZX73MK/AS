@@ -522,7 +522,7 @@ Domain.ButtonIcon.BorderSizePixel = 0
 Domain.ButtonIcon.Position = UDim2.new(0.049806118, 0, 0.0255983472, 0)
 Domain.ButtonIcon.Size = UDim2.new(0.685350418, 0, 0.109479688, 0)
 Domain.ButtonIcon.ZIndex = 5
-Domain.ButtonIcon.Image = "rbxassetid://4483362458"
+Domain.ButtonIcon.Image = "rbxassetid://6404488837"
 
 Domain.Shadow.Name = "Shadow"
 Domain.Shadow.Parent = Domain.Main
@@ -532,7 +532,7 @@ Domain.Shadow.BorderSizePixel = 0
 Domain.Shadow.Position = UDim2.new(-0.123659134, 0, -0.236623734, 0)
 Domain.Shadow.Size = UDim2.new(1.80975306, 0, 1.42539299, 0)
 Domain.Shadow.ZIndex = 3
-Domain.Shadow.Image = "rbxassetid://3523728077"
+Domain.Shadow.Image = "rbxassetid://4483362458"
 Domain.Shadow.ImageColor3 = Color3.fromRGB(33, 33, 33)
 Domain.Shadow.ImageTransparency = 0.700
 
