@@ -405,7 +405,7 @@ Domain.OpenExploits.BorderSizePixel = 0
 Domain.OpenExploits.Position = UDim2.new(0.126000002, 0, 0.123000003, 0)
 Domain.OpenExploits.Size = UDim2.new(0.717000008, 0, 0.713, 0)
 Domain.OpenExploits.ZIndex = 6
-Domain.OpenExploits.Image = "rbxassetid://4483362458"
+Domain.OpenExploits.Image = "rbxassetid://3926305904"
 Domain.OpenExploits.ImageRectOffset = Vector2.new(404, 844)
 Domain.OpenExploits.ImageRectSize = Vector2.new(36, 36)
 
