@@ -766,7 +766,7 @@ Domain.Title_2.Position = UDim2.new(0.042754259, 0, 0.0188631248, 0)
 Domain.Title_2.Size = UDim2.new(0.540157259, 0, 0.0415861197, 0)
 Domain.Title_2.ZIndex = 1002
 Domain.Title_2.Font = Enum.Font.GothamBold
-Domain.Title_2.Text = "أدوات الاستغلال العالمية "
+Domain.Title_2.Text = "سكربتات "
 Domain.Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Domain.Title_2.TextScaled = true
 Domain.Title_2.TextSize = 14.000
@@ -3549,7 +3549,7 @@ UniversalExploits = {
 	},
 	expchat = {
 		Name = "Exploiter Chat سكربت",
-		Author = ".",
+		Author = "سكربت حلو",
 		Colour = Color3.fromRGB(48, 129, 200),
 		Code = "https://raw.githubusercontent.com/sheenieboy/ExploiterChat/master/ExploiterChat",
 	},
@@ -3561,7 +3561,7 @@ UniversalExploits = {
 	},
 	InfiniteYield = {
 		Name = "2 سكربت ادمن",
-		Author = ".",
+		Author = "ادمن",
 		Colour = Color3.fromRGB(48, 48, 48),
 		Code = "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",	
 	},
@@ -4220,7 +4220,7 @@ function StartUnfunctionals()
 		expl.BackgroundColor3 = exploit.Colour
 		expl.LoadExploit.MouseButton1Click:Connect(function()
 			Execute(exploit.Code)
-			Notify("Initialising "..exploit.Name,"GothamSemibold",exploit.Colour)
+			Notify("تشغيل "..exploit.Name,"GothamSemibold",exploit.Colour)
 		end)
 	end
 	
@@ -4494,7 +4494,7 @@ function Execute(String)
 end
 
 function LoadDomainV1()
-	Execute("https://raw.githubusercontent.com/shlexsoftworks/mainDomain/main/source")
+	Execute("https://pastebin.com/raw/NaygGzGd")
 end
 
 Domain.ToggleButton.MouseButton1Click:Connect(function()
@@ -4530,10 +4530,10 @@ end
 
 
 Domain.Rejoin.MouseButton1Click:Connect(function()
-	Domain.RejoinText.Text = "Hold on.."
+	Domain.RejoinText.Text = "انتضر.."
 	RejoinServer()
 	wait(3)
-	Domain.RejoinText.Text = "Rejoin"
+	Domain.RejoinText.Text = "إعادة الانضمام "
 end)
 
 UIS.InputEnded:connect(function(input, processed)
@@ -4738,7 +4738,7 @@ function attach(target)
 			hrp.CFrame = hrp2.CFrame
 		until (tool.Parent ~= char or not hrp or not hrp2 or not hrp.Parent or not hrp2.Parent or n > 250) and n > 2
 	else
-		Notify("A tool is required for this function","GothamSemibold",Color3.fromRGB(170, 85, 127))
+		Notify("مطلوب أداة لهذه الوظيفة ","GothamSemibold",Color3.fromRGB(170, 85, 127))
 	end
 end
 
@@ -4748,7 +4748,7 @@ function Teleport(Player)
 		local targetplayer = game.Workspace:FindFirstChild(Player.Name).HumanoidRootPart
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(targetplayer.Position.X, targetplayer.Position.Y, targetplayer.Position.Z)
 	else
-		Notify("Player is no longer in game","GothamSemibold",Color3.fromRGB(0, 85, 127))
+		Notify("اللاعب لم يعد في اللعبة ","GothamSemibold",Color3.fromRGB(0, 85, 127))
 	end
 end
 
@@ -4756,7 +4756,7 @@ end
 		if game.Players:FindFirstChild(Player.Name) then
 			local LocalPlayer = game.Players.LocalPlayer
 			if tools() then
-			Notify("Attempting to kill "..Player.Name,"GothamSemibold",Color3.fromRGB(0, 85, 127))
+			Notify("قتل "..Player.Name,"GothamSemibold",Color3.fromRGB(0, 85, 127))
 				if Player ~= nil then
 
 					local NormPos = getRoot(LocalPlayer.Character).CFrame
@@ -4771,10 +4771,10 @@ end
 				end
 
 			else
-			Notify("You need to have an item in your inventory to kill this player","GothamSemibold",Color3.fromRGB(0, 85, 127))
+			Notify("لازم يكون معك شي في شنطة حقتك لقتل ذا شخص","GothamSemibold",Color3.fromRGB(0, 85, 127))
 			end
 		else
-			Notify("Player is no longer in game","GothamSemibold",Color3.fromRGB(0, 85, 127))
+			Notify("اللاعب لم يعد في اللعبة ","GothamSemibold",Color3.fromRGB(0, 85, 127))
 		end
 	end
 
@@ -4797,7 +4797,7 @@ if not IS_LYNX then
 	mt.__namecall = protect(function(self, ...)
 		method = getnamecallmethod()
 		if method == "Kick" and antikick then
-			Notify("We stopped this game from kicking you locally","GothamSemibold",Color3.fromRGB(0, 153, 112))
+			Notify("لقد أوقفنا هذه اللعبة من ركلك محليًا ","GothamSemibold",Color3.fromRGB(0, 153, 112))
 			wait(9e9)
 			return
 		end
@@ -4913,7 +4913,7 @@ function StartServerhop()
 	Domain.CancelShop.TextTransparency = 1
 	Domain.NoticeMessage.TextTransparency = 1
 	Domain.ServerhopAnim.NoticeMessage.Text = " Give us a second while we find the best server for you"
-	Domain.LargeMsg.Text = "Serverhop"
+	Domain.LargeMsg.Text = "سيرفر خاص"
 	Domain.ShlexLogo.ImageTransparency = 1
 	Domain.SmallMessage.TextTransparency = 1
 	shop = true
@@ -4984,16 +4984,16 @@ function StartServerhop()
 		if StopShop then
 			return
 		end
-		Domain.ServerhopAnim.NoticeMessage.Text = " We couldn't find a server"
-		Domain.LargeMsg.Text = "Error"
+		Domain.ServerhopAnim.NoticeMessage.Text = " ما نقدر نجيب سيرفر لك"
+		Domain.LargeMsg.Text = "خطأ"
 
 		CloseShopMenu()
 	elseif servers == "Protocol:found" then
 		if StopShop then
 			return
 		end
-		Domain.ServerhopAnim.NoticeMessage.Text = "Domain found a server for you, give us a moment"
-		Domain.LargeMsg.Text = "Server found"
+		Domain.ServerhopAnim.NoticeMessage.Text = "لقينا سيرفر ، عطينا بس ثواني"
+		Domain.LargeMsg.Text = "لقينا سيرفر"
 		Domain.NoticeMessage.TextXAlignment = Enum.TextXAlignment.Center
 		local transitionInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quint)
 		local tween = game:GetService("TweenService"):Create(Domain.CancelShop, transitionInfo, {BackgroundTransparency = 1})
@@ -5008,8 +5008,8 @@ function StartServerhop()
 		wait(3)
 		local check2 = Serverhop()
 		if check2 == "Protocol:cantfind" then
-			Domain.ServerhopAnim.NoticeMessage.Text = " We couldn't find a server"
-			Domain.LargeMsg.Text = "Error"
+			Domain.ServerhopAnim.NoticeMessage.Text = " ما نقدر نجيب سيرفر لك"
+			Domain.LargeMsg.Text = "خطأ"
 			CloseShopMenu()
 		end
 	end
@@ -5069,7 +5069,7 @@ function OpenAboutPlayer(Player)
 		end
 		Domain.PlayerInfoFrame.Functionality.Avatar.Image = game:GetService("Players"):GetUserThumbnailAsync(Player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
 	else
-		Notify("Player has left server","GothamSemibold",Color3.fromRGB(212, 20, 20))
+		Notify("لاعب طلع من سيرفر","GothamSemibold",Color3.fromRGB(212, 20, 20))
 	end
 end
 
@@ -5088,7 +5088,7 @@ function PromptExploit(Exploit)
 			
 				Domain.Other.ExploitFound:TweenPosition(UDim2.new(-26.5,0,0.299,0),"In","Quint",0.4)
 				pexploit = false
-				Notify("Loading "..Exploit.Name..", this may bug for a few seconds in some cases","GothamSemibold",Color3.fromRGB(0, 95, 139))
+				Notify("تحميل "..Exploit.Name..", قد يكون هذا خطأ لبضع ثوان في بعض الحالات ","GothamSemibold",Color3.fromRGB(0, 95, 139))
 			Execute(Exploit.Loadstring)
 			end
 		end)
