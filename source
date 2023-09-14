@@ -5818,7 +5818,7 @@ Domain.Serverhop.MouseButton1Click:Connect(function()
 	Domain.ServerhopText.Text = "انتضر قليل.."
 	StartServerhop()
 	wait(2)
-	Domain.ServerhopText.Text = "Serverhop"
+	Domain.ServerhopText.Text = "سيرفر خاص"
 end)
 
 bindable.Event:Connect(Notify)
@@ -5946,7 +5946,7 @@ function PromptFriendNotif(Plr)
 	snd.PlayOnRemove = true
 	Domain.FriendJoined.Visible = true
 	Domain.FriendJoined.Size = UDim2.new(0,0,0.195,0)
-	Domain.FriendJoined.Textjoin.Text = "Your friend, "..Plr.Name..", has joined this server"
+	Domain.FriendJoined.Textjoin.Text = "صديقك , "..Plr.Name..", انضم إلى هذا سيرفر "
 	Domain.FriendJoined.Textjoin.TextTransparency = 1
 	Domain.FriendJoined.Avatarjoin.Image = game:GetService("Players"):GetUserThumbnailAsync(Plr.UserId,Enum.ThumbnailType.AvatarBust,Enum.ThumbnailSize.Size420x420)
 	Domain.FriendJoined.Avatarjoin.ImageTransparency = 1
