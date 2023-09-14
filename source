@@ -6035,7 +6035,7 @@ Domain.ToggleSound.MouseButton1Click:Connect(function()
 		if tonumber(Domain.SoundIdBox.Text) then
 			if not Domain.Domain:FindFirstChildWhichIsA("Sound") then
 				local MusicSound = Instance.new("Sound",Domain.Domain)
-				MusicSound.Volume = 1
+				MusicSound.Volume = 0
 				MusicSound.SoundId = "rbxassetid://"..tonumber(Domain.SoundIdBox.Text)
 				Domain.SoundIdBox.Text = ""
 				MusicSound.TimePosition = 0
